@@ -1,0 +1,54 @@
+{
+  "outputDir": "..",
+  "format": "z80",
+  "sprites": [
+    {
+      "sharedPalette": [
+        {
+          "file": "cursor.png",
+          "frames": 1
+        },
+        {
+          "file": "menu_cursor.png",
+          "frames": 2
+        },
+        {
+          "file": "unsolved_puzzle_icon.png",
+          "frames": 1
+        },
+        {
+          "file": "clock_colon.png",
+          "frames": 1
+        },
+        {
+          "file": "clear_flash_x.png",
+          "frames": 1
+        },
+        {
+          "file": "penalties.png",
+          "frames": 3
+        },
+        {
+          "file": "hint_icon.png",
+          "frames": 2
+        },
+        {
+          "file": "logo.png",
+          "frames": 1
+        },
+        {
+          "file": "spider.png",
+          "frames": 2
+        },
+        {
+          "file": "back_icon.png",
+          "frames": 1
+        }
+      ],
+      "name": "global",
+      "forcePalette": "palette.png",
+      "trimPalette": false,
+      "transparentColor": 0
+    }
+  ]
+}

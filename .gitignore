@@ -1,0 +1,17 @@
+*.P
+*.asm.t*
+*.vpk
+*.rel
+*.bin
+*.s19
+*.dotcode*.bmp
+*.sav
+*.sym
+*.sld
+*.lst
+*.raw
+ereaderRunnerLog_*.txt
+
+raws.mk
+
+node_modules/

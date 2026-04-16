@@ -1,0 +1,7 @@
+export const SCAN_RESULT_SUCCESS = 0;
+export const SCAN_RESULT_READ_ERROR = 1;
+export const SCAN_RESULT_USER_CANCELED_WITH_A = 2;
+export const SCAN_RESULT_USER_CANCELED_WITH_B = 3;
+export const SCAN_RESULT_TIMEOUT = 4;
+export const SCAN_RESULT_REGION_ERROR = 5;
+export const SCAN_RESULT_RAW_CARD = 6;

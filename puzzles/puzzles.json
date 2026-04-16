@@ -1,0 +1,64 @@
+{
+  "outputDir": "./output",
+  "startingId": 0,
+  "mainSymFile": "../main.sym",
+  "collections": [
+    {
+      "name": "entomology",
+      "mascotBody": "./franny_entomology_body.png",
+      "mascotSadFace": "./franny_entomology_sad_face.png",
+      "mascotTail": "./franny_entomology_tail.png",
+      "palette": "../resources/palette.png",
+      "bgId": 85,
+      "bgmId": 99,
+      "asm": "./entomology1.asm",
+      "puzzles": [
+        {
+          "file": "./Grub.png"
+        },
+        {
+          "file": "./Grub.png"
+        },
+        {
+          "file": "./Grub.png"
+        },
+        {
+          "file": "./Grub.png"
+        },
+        {
+          "file": "./Grub.png"
+        },
+        {
+          "file": "./Grub.png"
+        },
+        {
+          "file": "./Grub.png"
+        },
+        {
+          "file": "./Grub.png"
+        },
+        {
+          "file": "./Grub.png"
+        },
+        {
+          "file": "./Grub.png"
+        },
+        {
+          "file": "./Grub.png"
+        },
+        {
+          "file": "./Grub.png"
+        },
+        {
+          "file": "./Grub.png"
+        },
+        {
+          "file": "./Grub.png"
+        },
+        {
+          "file": "./Grub.png"
+        }
+      ]
+    }
+  ]
+}

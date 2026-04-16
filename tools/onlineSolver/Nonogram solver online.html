@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://fedimser.github.io/nonogram.html -->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Nonogram solver online</title>
+    <link
+      rel="shortcut icon"
+      href="https://fedimser.github.io/img/favicon.ico"
+      type="image/ico"
+    />
+
+    <meta
+      name="keywords"
+      content="nonogram, solve, online, японский, кроссворд, решить, онлайн"
+    />
+
+    <link rel="stylesheet" href="./Nonogram solver online_files/style.css" />
+    <script src="./Nonogram solver online_files/Nonogram.js"></script>
+  </head>
+
+  <body background="./Nonogram solver online_files/0012.gif">
+    <div id="header">
+      <table>
+        <tbody>
+          <tr>
+            <td id="pussContainer" width="120">
+              <a
+                href="https://fedimser.github.io/index.html"
+                style="margin-right: 10px"
+              >
+                <img
+                  id="pussImage"
+                  src="./Nonogram solver online_files/0100.png"
+                  width="150"
+                  height="120"
+                />
+                <canvas
+                  id="pussCanvas"
+                  width="150"
+                  height="120"
+                  style="display: none"
+                ></canvas>
+              </a>
+            </td>
+            <td>
+              <h1 style="margin: 0px">Dmytro Fedoriaka</h1>
+              <p>
+                <a class="chapter" href="https://fedimser.github.io/index.html"
+                  >About</a
+                >
+                |
+                <a class="chapter" href="https://fedimser.github.io/games.html"
+                  >Games</a
+                >
+                |
+                <a class="chapter" href="https://fedimser.github.io/soft.html"
+                  >Soft</a
+                >
+                |
+                <a
+                  class="chapter"
+                  href="https://fedimser.github.io/science.html"
+                  >Science</a
+                >
+                |
+                <a class="chapter" href="https://fedimser.github.io/misc.html"
+                  >Misc</a
+                >
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <hr />
+    </div>
+
+    <div id="content">
+      <h2>Online Nonogram solver</h2>
+
+      <div id="non"></div>
+      <script type="text/javascript">
+        ng = new NonogramGUI(document.getElementById("non"));
+      </script>
+    </div>
+
+    <div id="footer">
+      <hr />
+      <p align="center">
+        © Dmytro Fedoriaka, 2010-<span id="curyear">2025</span>
+      </p>
+      <script
+        src="./Nonogram solver online_files/puss.js"
+        type="text/javascript"
+      ></script>
+    </div>
+  </body>
+</html>

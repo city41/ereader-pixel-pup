@@ -107,6 +107,17 @@ Puzzle packs can optionally define a function that the game will call once the p
 
 Once you have puzzle.json and the corresponding pngs all set, run `make puzzle` to generate the puzzle pack raws. You need node and yarn installed for this.
 
+#### Puzzle generation output
+
+In `puzzles/output` will be several files generated:
+
+- puzzlepack.raw - the file you care about, this is an ereader card ready to be loaded into mGBA, or converted into an image and printed.
+- puzzlepack.asm - The puzzle pack binary in asz80 format. This was originally created to embed puzzles directly into the main card for easier development loops, but is now ignored.
+- puzzlepack.bin - The raw assembled binary of your puzzlepack.
+- puzzlepack.c and puzzlepack.h - The puzzle pack binary in a C char array for embedding into a C program. I originally tried writing Pixel Pup in C. This file is now ignored.
+- puzzlepack.decoded.bin - the raw file decoded. This is used by the integration tests.
+- puzzlepack.vpk - the puzzle pack binary compressed using Nintendo's vpk0 compression. This is what gets encoded into a raw.
+
 ## Building on other OSes
 
 I have never tested this. But basically you will need to get the proper ereader tools, place them in `bin/`, and then update the Makefile accordingly.

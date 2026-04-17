@@ -82,11 +82,6 @@ Pixel Pup allows three puzzle sizes:
 To define a puzzle, make a png file that contains the puzzle. The png file must be a multiple of 8px as it is also used as a sprite to show once the puzzle is solved.
 
 - 5x5: an 8x8px png with the puzzle in the upper left.
-- 8x8: an 8x8px png with the puzzle using up the entire image
-
-To define a puzzle, make a png file that contains the puzzle. The png file must be a multiple of 8px as it is also used as a sprite to show once the puzzle is solved.
-
-- 5x5: an 8x8px png with the puzzle in the upper left.
 - 8x8: an 8x8px png with the puzzle populating the entire image.
 - 15x15: a 16x16px png with the puzzle taking up all but the rightmost column and bottommost row.
 

@@ -132,6 +132,10 @@ I wrote this using [asz80](https://shop-pdp.net/ashtml/asz80.htm) which is a ver
 
 You can get asz80 binaries here: https://shop-pdp.net/ashtml/asxget.php
 
+### Working around an assembler bug
+
+asz80 has a bug where `.ds` is unreliable. Sometimes it works, often it does not. To work around this, I generate "manual ds" blocks as runs of `.db`s. See `_f_save_data.asm` as an example, and see how it is `.include`d in `flash.asm` instead of using a `.ds` directive.
+
 ## Integration tests
 
 Running `make test_integration` will run the integration test suite. Node and yarn are needed for this. The tests take a while to run, and if a test fails, it almost always means the test run will take a very long time to complete (it will eventually). These tests run the actual game in a z80 emulator and do a very good job of ensuring the game lacks bugs. Note that I originally wrote these tests before Pixel Pup was open sourced, so it assumed it had a full suite of puzzles to work with. Due to this, I have `skip`ed several tests in the suite.
